@@ -1,0 +1,27 @@
+/* Target the element */
+h1 {
+  text-align: center;
+}
+/* Target an elements class attribute */
+.heading-tags {
+  text-align: right;
+}
+/* Target an elements id attribute */
+#bottom-tag {
+  text-align: center;
+}
+/* Target child elements */
+header h3 {
+  color: blue;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 30vw);
+  grid-template-rows: 10vh 10vh 10vh;
+}
+
+#first {
+  grid-column: 3;
+  grid-row: 3;
+}
